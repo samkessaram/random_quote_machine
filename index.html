@@ -2,24 +2,36 @@
 <html>
 <head>
   <title>Random Quotes on Design</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/foundation.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="scripts.js"></script>
+
 </head>
 <body>
-<div class="container">
-  <div class="row">
-    <h1 class="column text-center">Random Quotes on Design</h1>
-  </div>
-  <div class="row">
-    <blockquote class="small-8 column text-center small-centered" id="quote">This is where the quotes go.<cite id="author">Author</cite></blockquote>
-  </div>
-  <div class="row">
-    <div class="small-6 small-centered column">
-      <ul class="button-group even-2 text-center">
-        <button id="fetch" class="button">New Quote</button>
-        <button id="tweet" class="button">Tweet Quote</button>
-      </ul>
+  <div class="container">
+    <div class="row">
+      <h1 class="medium-8 medium-centered column">Random Quotes on Design</h1>
+    </div>
+    <div class="row align-middle" id="quote-container">
+      <div class="medium-3 column">
+        <i id="left-quote-icon" class="fa fa-quote-left"></i>
+      </div>
+        <blockquote class="medium-6 column text-center"><span id="quote">This is where the quotes go.</span><cite id="author">Author</cite></blockquote>
+      <div class="medium-3 column"><i id="right-quote-icon" class="fa fa-quote-right"></i></div>
+    </div>
+    <div class="row">
+      <div class="medium-12 column">
+        <div class="button-group even-2 text-center" id="button-container">
+          <button id="fetch" class="button">New Quote</button>
+          <a href="#" target="_blank" id="tweet" class="button">Tweet It</a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 </body>
 </html>

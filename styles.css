@@ -1,0 +1,33 @@
+body {
+  display: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+
+.container {
+  margin-top: 50px;
+}
+
+#quote-container {
+  height:200px;
+  margin-top: 50px;
+}
+
+#right-quote-icon {
+  font-size: 100px;
+  color: lightgray;
+}
+
+#left-quote-icon {
+  font-size: 100px;
+  color: lightgray;
+  float: right;
+}
+
+#button-container {
+  display: block;
+}
