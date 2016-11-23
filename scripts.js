@@ -1,6 +1,4 @@
-$(document).ready(function(){
-
-  getQuote();
+getQuote();
   
   function getQuote(){
     var timestamp = Date.now();
@@ -16,6 +14,13 @@ $(document).ready(function(){
 
       editTweetLink($("#quote").html(), $("#author").html()); // use jQuery to grab quote stripped of HTML encoding
       checkLength($("#quote").html(), $("#author").html());
+
+      var pattern = Trianglify({
+      width: window.innerWidth,
+      height: window.innerHeight
+  });
+
+  pattern.canvas(document.getElementById('canvas'));
     }); 
   };
 
@@ -46,5 +51,4 @@ $(document).ready(function(){
       event.preventDefault();
       alert("Shoot! This quote is too long to tweet.");
     }
-  });
 });
