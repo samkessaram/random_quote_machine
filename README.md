@@ -9,3 +9,4 @@ View it live on [CodePen.](http://codepen.io/samkessaram/full/ENWqKz/)
 * Foundation 6
 * jQuery
 * [Quotes on Design API v4.0](https://quotesondesign.com/api-v4-0/)
+* [Trianglify](https://github.com/qrohlf/Trianglify)
