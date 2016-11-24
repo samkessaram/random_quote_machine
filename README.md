@@ -1,6 +1,9 @@
 # Random Quote Machine
 
-First intermediate front end development project off of Free Code Camp. The "official" project is on CodePen, but I made everything on my local machine first.
+First intermediate front end development project off of Free Code Camp. The "official" project is on CodePen, but you can view it [here.](https://samkessaram.github.io/random_quote_machine/)
+
+#### What It Does
+It grabs a random quote from the API and sticks it into the DOM. Each time a new quote is grabbed, the background also changes to a random triangle design courtesy of [Trianglify](https://github.com/qrohlf/Trianglify). If under the quote is under 140 characters you have the ability to tweet it.  
 
 View it [live!](https://samkessaram.github.io/random_quote_machine/)
 
