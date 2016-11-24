@@ -1,7 +1,6 @@
 body {
-/*  display: none;*/
+  display: none; /* Set body display to none until quote is fetched through AJAX */
 }
-
 h1 {
   font-weight: 700;
   font-size: 60px;
@@ -29,14 +28,12 @@ blockquote, cite {
   margin-top: 50px;
 }
 
-#right-quote-icon {
+#right-quote-icon, #left-quote-icon {
   font-size: 100px;
-  color: lightgray;
+  color: #8d9cad;
 }
 
 #left-quote-icon {
-  font-size: 100px;
-  color: lightgray;
   float: right;
 }
 
