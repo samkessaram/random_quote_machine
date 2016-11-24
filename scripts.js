@@ -2,7 +2,7 @@ getQuote();
   
   function getQuote(){
     var timestamp = Date.now();
-    var url = 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&' + timestamp;
+    var url = 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&' + timestamp;
     $.getJSON(url,function(json){
 
       var quote = json[0].content.slice(3,-5);
