@@ -1,4 +1,4 @@
-$.(function(){
+$(function(){
   getQuote();
     
     function getQuote(){
