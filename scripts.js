@@ -52,5 +52,5 @@ $(function(){
         event.preventDefault();
         alert("Shoot! This quote is too long to tweet.");
       }
-    };
+    });
 });
