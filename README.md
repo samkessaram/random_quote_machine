@@ -1,8 +1,8 @@
 # Random Quote Machine
 
-First intermediate front end development project off of Free Code Camp. The real project is on CodePen, but I made everything on my local machine first.
+First intermediate front end development project off of Free Code Camp. The "official" project is on CodePen, but I made everything on my local machine first.
 
-View it live on [CodePen.](http://codepen.io/samkessaram/full/ENWqKz/)
+View it [live!]('https://samkessaram.github.io/random_quote_machine/')
 
 ### Built With
 * HTML/CSS/Javascript
