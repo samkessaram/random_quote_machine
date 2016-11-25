@@ -6,7 +6,7 @@ h1 {
   font-size: 60px;
 }
 
-blockquote, cite {
+blockquote p, cite {
   color: black;
 }
 
