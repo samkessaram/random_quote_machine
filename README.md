@@ -12,4 +12,4 @@ View it [live!](https://samkessaram.github.io/random_quote_machine/)
 * Foundation 6
 * jQuery
 * [Quotes on Design API v4.0](https://quotesondesign.com/api-v4-0/)
-* [Trianglify](https://github.com/qrohlf/Trianglify)
+* [Trianglify](https://github.com/qrohlf/Trianglify) by [Quinn Rohlf](https://github.com/qrohlf)

@@ -17,11 +17,12 @@ $(function(){
         checkLength($("#quote").html(), $("#author").html());
 
         var pattern = Trianglify({
-        width: window.innerWidth,
-        height: window.innerHeight
-    });
+          width: window.innerWidth,
+          height: window.innerHeight
+        });
 
-    pattern.canvas(document.getElementById('canvas'));
+        pattern.canvas(document.getElementById('canvas'));
+
       }); 
     };
 
