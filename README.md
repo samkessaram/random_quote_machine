@@ -11,5 +11,5 @@ View it [live!](https://samkessaram.github.io/random_quote_machine/)
 * HTML/CSS/Javascript
 * Foundation 6
 * jQuery
-* [Quotes on Design API v4.0](https://quotesondesign.com/api-v4-0/)
+* [Quotes on Design API v4.0](https://quotesondesign.com/api-v4-0/) by [Chris Coyier](http://chriscoyier.net/)
 * [Trianglify](https://github.com/qrohlf/Trianglify) by [Quinn Rohlf](https://github.com/qrohlf)
