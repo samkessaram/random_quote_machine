@@ -27,7 +27,7 @@ $(function(){
     };
 
     function checkLength(quote,author){
-      goodLength = quote.length + author.length + 1 <= 140; // add 1 to account for dash built into tweet.
+      goodLength = quote.length + author.length + 2 <= 140; // add 1 to account for dash built into tweet.
       if ( !goodLength ){
         $("#tweet").attr('disabled',true);
       } else {
@@ -42,9 +42,9 @@ $(function(){
     var goodLength = true;
     
     function editTweetLink(quote, author){
-      quote = encodeURIComponent(quote);
-      author = encodeURIComponent(author);
-      var url = 'https://twitter.com/intent/tweet?text=' + quote + " -" + author;
+      quote = quote.replace(/<br>/gi,'');
+      quote = encodeURIComponent(quote + "\n-" + author);
+      var url = 'https://twitter.com/intent/tweet?text=' + quote;
       $('#tweet').attr('href',url);
     }
     
