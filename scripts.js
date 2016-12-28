@@ -54,4 +54,18 @@ $(function(){
         alert("Shoot! This quote is too long to tweet.");
       }
     });
+
+  $(window).on("orientationchange resize",function(){
+
+    var pattern = Trianglify({
+      width: window.innerWidth,
+      height: window.innerHeight,
+      cell_size: 200,
+      x_colors: xColors,
+      y_colors: yColors
+    });
+    
+    pattern.canvas(document.getElementById('canvas'));
+  
+  });
 });
