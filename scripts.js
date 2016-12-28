@@ -60,9 +60,7 @@ $(function(){
     var pattern = Trianglify({
       width: window.innerWidth,
       height: window.innerHeight,
-      cell_size: 200,
-      x_colors: xColors,
-      y_colors: yColors
+      cell_size: 200
     });
     
     pattern.canvas(document.getElementById('canvas'));
