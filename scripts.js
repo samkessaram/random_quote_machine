@@ -18,7 +18,7 @@ $(function(){
 
         var pattern = Trianglify({
           width: window.innerWidth,
-          height: window.innerHeight
+          height: window.innerHeight,
           cell_size: 800
         });
 
