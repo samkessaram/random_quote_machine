@@ -19,6 +19,7 @@ $(function(){
         var pattern = Trianglify({
           width: window.innerWidth,
           height: window.innerHeight
+          cell_size: 800
         });
 
         pattern.canvas(document.getElementById('canvas'));
@@ -60,7 +61,7 @@ $(function(){
     var pattern = Trianglify({
       width: window.innerWidth,
       height: window.innerHeight,
-      cell_size: 200
+      cell_size: 800
     });
     
     pattern.canvas(document.getElementById('canvas'));
