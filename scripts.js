@@ -1,4 +1,5 @@
 $(function(){
+  setContainerMarginTop();
   getQuote();
     
     function getQuote(){
@@ -59,7 +60,6 @@ $(function(){
     });
 
   $(window).on("orientationchange resize",function(){
-
     var pattern = Trianglify({
       width: window.innerWidth,
       height: window.innerHeight,
@@ -69,11 +69,11 @@ $(function(){
     });
     
     pattern.canvas(document.getElementById('canvas'));
-    adjustContainerMargin();
+    setContainerMarginTop();
   
   });
 
-  function adjustContainerMargin(){
+  function setContainerMarginTop(){
     var cont = $('.container');
     if (cont.height() < window.innerHeight){
       cont.css('margin-top', (window.innerHeight - cont.height())/2)
