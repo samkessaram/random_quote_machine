@@ -1,5 +1,5 @@
 body {
-  display: none; /* Set body display to none until quote is fetched through AJAX */
+  display: none;  /*Set body display to none until quote is fetched through AJAX */
   overflow: hidden;
 }
 h1 {
