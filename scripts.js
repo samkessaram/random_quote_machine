@@ -1,5 +1,4 @@
 $(function(){
-  setContainerMarginTop();
   getQuote();
     
     function getQuote(){
@@ -12,6 +11,7 @@ $(function(){
 
         $('#quote').html(quote);
         $('#author').html(author);
+        setContainerMarginTop();
         $('body').show();
 
         editTweetLink($("#quote").html(), $("#author").html()); // use jQuery to grab quote stripped of HTML encoding
@@ -74,11 +74,11 @@ $(function(){
   });
 
   function setContainerMarginTop(){
-    var cont = $('.container');
+    var cont = $('#container');
     if (cont.height() < window.innerHeight){
       cont.css('margin-top', (window.innerHeight - cont.height())/2)
     }else{
-      cont.css('margin-top',100)
+      cont.css('margin-top',50)
     }
   }
 });
