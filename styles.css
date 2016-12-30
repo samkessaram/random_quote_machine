@@ -6,6 +6,8 @@ h1 {
   font-size: 60px;
 }
 
+.element::-webkit-scrollbar { width: 0 !important }
+
 blockquote p, cite {
   color: black;
 }
