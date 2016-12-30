@@ -69,6 +69,16 @@ $(function(){
     });
     
     pattern.canvas(document.getElementById('canvas'));
+    adjustContainerMargin();
   
   });
+
+  function adjustContainerMargin(){
+    var cont = $('.container');
+    if (cont.height() < window.innerHeight){
+      cont.css('margin-top', (window.innerHeight - cont.height())/2)
+    }else{
+      cont.css('margin-top',100)
+    }
+  }
 });
