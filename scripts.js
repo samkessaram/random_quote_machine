@@ -11,7 +11,6 @@ $(function(){
 
         $('#quote').html(quote);
         $('#author').html(author);
-        setContainerMarginTop();
         $('body').show();
 
         editTweetLink($("#quote").html(), $("#author").html()); // use jQuery to grab quote stripped of HTML encoding
@@ -26,6 +25,7 @@ $(function(){
         });
 
         pattern.canvas(document.getElementById('canvas'));
+        setContainerMarginTop();
 
       }); 
     };
