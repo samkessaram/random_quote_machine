@@ -19,7 +19,7 @@ $(function(){
         var pattern = Trianglify({
           width: window.innerWidth,
           height: window.innerHeight,
-          x_colors: 'YlOrRd',
+          x_colors: 'Spectral',
           y_colors: 'match_x',
           cell_size: 800
         });
@@ -63,7 +63,7 @@ $(function(){
     var pattern = Trianglify({
       width: window.innerWidth,
       height: window.innerHeight,
-      x_colors: 'YlOrRd',
+      x_colors: 'Spectral',
       y_colors: 'match_x',
       cell_size: 800
     });
