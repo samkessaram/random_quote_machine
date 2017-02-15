@@ -11,6 +11,11 @@ blockquote p, cite {
   color: black;
 }
 
+.fa {
+  color: rgba(141, 156, 173, 0.4);
+  font-size: 100px;
+}
+
 #canvas {
   position:fixed;
   top:0;
@@ -26,11 +31,6 @@ blockquote p, cite {
 #quote-container {
   height:200px;
   margin-top: 50px;
-}
-
-#right-quote-icon, #left-quote-icon {
-  font-size: 100px;
-  color: #8d9cad;
 }
 
 #left-quote-icon {
